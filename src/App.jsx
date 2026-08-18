@@ -1,10 +1,11 @@
 import Header from './components/Header'
 import Hero from './components/Hero'
-import Benefits from './components/Benefits'
-import ValueSection from './components/ValueSection'
-import Workflow from './components/Workflow'
-import Trust from './components/Trust'
-import FinalCta from './components/FinalCta'
+import WasCorvusMacht from './components/WasCorvusMacht'
+import EinAnruf from './components/EinAnruf'
+import FotoVomSchaden from './components/FotoVomSchaden'
+import TechnikDatenschutz from './components/TechnikDatenschutz'
+import FAQ from './components/FAQ'
+import Kontakt from './components/Kontakt'
 import Footer from './components/Footer'
 
 export default function App() {
@@ -13,11 +14,12 @@ export default function App() {
       <Header />
       <main>
         <Hero />
-        <Benefits />
-        <ValueSection />
-        <Workflow />
-        <Trust />
-        <FinalCta />
+        <WasCorvusMacht />
+        <EinAnruf />
+        <FotoVomSchaden />
+        <TechnikDatenschutz />
+        <FAQ />
+        <Kontakt />
       </main>
       <Footer />
     </div>
